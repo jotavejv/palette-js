@@ -17,7 +17,7 @@ Just import the CDN source code
 ```
 ## How does it work
 
-The JS code will inject to your project the required CSS style for the list of color that you will add to the plugin, then it will create a list of colors inside of the parent selector that you need especify.
+The JS code will inject to your project the required CSS style for the list of colors that you will add to the plugin. Then it will create a list of colors inside of the parent selector that you need especify.
 The JS handle **copy to clipboard** for you too! Just click at any color and it will add that especific color to your clipboard :)
 
 
