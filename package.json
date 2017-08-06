@@ -1,6 +1,6 @@
 {
   "name": "palette-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "\"palette ui colors creator\"",
   "main": "index.js",
   "scripts": {
