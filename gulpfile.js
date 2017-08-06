@@ -25,7 +25,7 @@ gulp.task('build', function() {
             min:'.min.js'
         },
         exclude: ['tasks'],
-        ignoreFiles: ['.combo.js', '-min.js']
+        ignoreFiles: ['-min.js']
     }))
     .pipe(gulp.dest('dist'))
 });
