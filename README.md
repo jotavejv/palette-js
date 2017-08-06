@@ -13,7 +13,7 @@ OR
 
 Just import the CDN source code
 ```html
-<script src="https://cdn.rawgit.com/jotavejv/palette-js/693de57/dist/palette.min.js"></script>
+<script src="https://cdn.rawgit.com/jotavejv/palette-js/d482cf3/dist/palette.min.js"></script>
 ```
 ## How does it work
 
