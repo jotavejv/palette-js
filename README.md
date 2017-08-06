@@ -52,3 +52,5 @@ palette(colors, document.querySelector(".example"));
 ![demo](palette.gif "demo")
 
 ![demo](demo.png "demo")
+
+###  Se the [online demo]("https://codepen.io/jotavejv/pen/wezbwy/")
