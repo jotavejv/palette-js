@@ -12,7 +12,7 @@ npm install palette-js
 OR
 
 Just import the CDN source code
-```js
+```html
 <script src="https://cdn.rawgit.com/jotavejv/palette-js/693de57/dist/palette.min.js"></script>
 ```
 ## How does it work
@@ -23,30 +23,32 @@ The JS handle **copy to clipboard** for you too! Just click at any color and it 
 
 ## How to use
 
-You need especify a **array** of colors and the especific parent select that will wrap these colors.
+You need especify a **array** of colors and the especific parent selector that will wrap these colors.
 
 ```js
 const colors = [
-	"aquamarine",
-	"pink",
-	"darkturquoise",
-	"steelblue",
-	"cadetblue",
-	"lightblue",
-	"lightsalmon",
-	"teal",
-	"darkseagreen",
-	"khaki",
-	"lightcoral",
-	"lightgray",
-	"coral",
-	"slategray",
-	"gray",
-	"lightseagreen"
+"aquamarine",
+"pink",
+"darkturquoise",
+"steelblue",
+"cadetblue",
+"lightblue",
+"lightsalmon",
+"teal",
+"darkseagreen",
+"khaki",
+"lightcoral",
+"lightgray",
+"coral",
+"slategray",
+"gray",
+"lightseagreen"
 ];
 
 palette(colors, document.querySelector(".example"));
 ```
 
-<!--![demo](demo.png "demo")-->
+
 ![demo](palette.gif "demo")
+
+![demo](demo.png "demo")

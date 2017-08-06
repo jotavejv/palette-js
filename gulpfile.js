@@ -17,11 +17,10 @@ gulp.task('sass:watch', function () {
 
 gulp.task('default',["sass:watch"], function(){});
 
-gulp.task('build', function() {
+gulp.task('minify', function() {
     gulp.src('src/*.js')
     .pipe(minify({
         ext:{
-            src:'-debug.js',
             min:'.min.js'
         },
         exclude: ['tasks'],
