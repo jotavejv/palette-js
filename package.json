@@ -1,0 +1,29 @@
+{
+  "name": "palette-js",
+  "version": "1.0.0",
+  "description": "\"palette ui colors creator\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jotavejv/palette-js.git"
+  },
+  "keywords": [
+    "\"color",
+    "UI",
+    "design",
+    "css\""
+  ],
+  "author": "\"jotavejv\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jotavejv/palette-js/issues"
+  },
+  "homepage": "https://github.com/jotavejv/palette-js#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
