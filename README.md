@@ -53,4 +53,4 @@ palette(colors, document.querySelector(".example"));
 
 ![demo](demo.png "demo")
 
-###  Se the [online demo]("https://codepen.io/jotavejv/pen/wezbwy/")
+Codepen link **[Demo](https://codepen.io/jotavejv/pen/wezbwy/)**
