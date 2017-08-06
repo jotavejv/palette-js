@@ -1,5 +1,24 @@
 'use strict';
 
+const colors = [
+    "aquamarine",
+    "pink",
+    "darkturquoise",
+    "steelblue",
+    "cadetblue",
+    "lightblue",
+    "lightsalmon",
+    "teal",
+    "darkseagreen",
+    "khaki",
+    "lightcoral",
+    "lightgray",
+    "coral",
+    "slategray",
+    "gray",
+    "lightseagreen"
+];
+
 const palette = (colors, renderElement) => {
     let template = `
 			<ul id="paletteUI">

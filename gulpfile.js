@@ -2,6 +2,7 @@
 
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var minify = require('gulp-minify');
 
 gulp.task('sass', function () {
     return gulp.src('./style/**/*.sass')
@@ -15,3 +16,16 @@ gulp.task('sass:watch', function () {
 
 
 gulp.task('default',["sass:watch"], function(){});
+
+gulp.task('build', function() {
+    gulp.src('src/*.js')
+    .pipe(minify({
+        ext:{
+            src:'-debug.js',
+            min:'.min.js'
+        },
+        exclude: ['tasks'],
+        ignoreFiles: ['.combo.js', '-min.js']
+    }))
+    .pipe(gulp.dest('dist'))
+});
