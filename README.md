@@ -47,10 +47,10 @@ const colors = [
 
 palette(colors, document.querySelector(".example"));
 ```
-
+Codepen link **[Demo](https://codepen.io/jotavejv/pen/wezbwy/)**
 
 ![demo](palette.gif "demo")
 
 ![demo](demo.png "demo")
 
-Codepen link **[Demo](https://codepen.io/jotavejv/pen/wezbwy/)**
+
