@@ -1,6 +1,8 @@
 # Palette-js
 
-Are you building a Design System or just a style guide? So, **palettejs** may help you! Add a beautiful palette colors to your project with a single line of code.
+Are you building a Design System or just a style guide? So, **palettejs** may help you! 
+
+Add a beautiful palette colors to your project with a single line of code.
 
 This JS source code is a modern es2015, so keep it in mind for browser support.
 
